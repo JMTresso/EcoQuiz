@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8> 
+
+	<title>ECOquiz</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">  
+	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon/game.png" />
+
+</head>
+<body>
+
+	<header>
+
+		<div class="engloba_head">
+
+			<div>
+				<img src="img/logo.png" class="logotipo" /> 
+			</div> 
+
+			<div class="engloba_menu">
+				<ul class="menu"> 
+					<a href="index.php"> <li>HOME</li> </a>
+					<a href="orienta.html"> <li>ORIENTAÇÕES</li> </a>
+					<a href="material.html"> <li>MATERIAL</li> </a>
+					<a href="jogar.html"> <li>JOGAR</li> </a>
+				</ul>
+			</div>
+		</div>
+
+	</header>
+
+	<main>
+
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------NICKNAME---------------------------------------------------------> 
+	<!--------------------------------------------------------------------------------------------------------------------------------->
+
+
+		<div class="form_nick"> 
+			<form action="conecta.php" method="post">
+
+				<p class = "n_tag"> NOME </p>
+
+				<input type="textbox" name="nome" id="nickname" class="txt_form"> 
+
+				<select name="select" id="instituicao" class="txt_form">
+					<option value="E.E. Olimpia">E.E. OLIMPIA</option>
+					<option value="E.E. Nostradamus">E.E. NOSTRADAMUS</option>
+					<option value="ETEC - Viana">ETEC - VIANA</option>
+				  </select>
+
+				<!--  <p class = "n_tag"> INSTITUIÇÃO </p>
+
+				<input type="textbox" name="nome" id="instituicao" class="txt_form"> -->
+
+			</form>
+		</div> 
+
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 1 ---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 1</p>
+
+				<p class="p_pergunta">É o termo empregado para designar a deterioração das condições físicas, químicas e biológicas de um ecossistema, que afeta negativamente a vida humana e de espécies animais e vegetais. A poluição modifica o meio ambiente, ou seja, o sistema de relações no qual a existência de uma espécie depende do mecanismo de equilíbrio entre processos naturais destruidores e regeneradores.</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="1"/> A - Termo usado para definir poluição </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Termo usado para definir sustentabilidade </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Termo usado para definir nivel de radiação </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> D - Termo usado para definir desmatamento da mata atlantica </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Nenhuma das anteriores </p>
+			</form>	
+		</div>
+		
+
+		<hr>	
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 2 ---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 2</p>
+
+				<p class="p_pergunta">Acerca de serviços ambientais, assinale a opção correta</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - O pagamento por serviços ambientais surge como instrumento para corrigir falhas de mercado a partir da transferência de recursos financeiros dos beneficiados por serviços ambientais para os que, devido a práticas que conservam a natureza, fornecem esses serviços.</p>
+
+				<p class="resp"> <input type="radio" name="resp" value="1"/> B - O pagamento de serviços ambientais está associado ao reconhecimento de que para se garantir a manutenção da biodiversidade, os bens e serviços oriundos do meio ambiente não devem ser oferecidos gratuitamente ao ser humano. </p> <!--Essa-->
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - O conceito de serviços ambientais está associado ao reconhecimento de que os bens e serviços que o meio ambiente fornece, os quais são de interesse direto ou indireto do ser humano, devem ser oferecidos gratuitamente para o bem-estar de todos</p>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> D - Do ponto de vista conceitual, os serviços ambientais restringem-se aos bens produzidos pela natureza, como por exemplo, alimentos, combustíveis, água potável e medicamentos.</p>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Nenhuma das anteriores </p>
+			</form>	
+		</div>
+
+
+		<hr>
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 3---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">	
+				<p class="p_titulo">PERGUNTA 3</p>
+
+				<p class="p_pergunta">Entre os instrumentos de pagamento por serviços ambientais, incluise </p>
+				<p class="p_pergunta">I - a certificação ambiental, que é um processo complementar fundamental para verificação da existência, avaliação e valoração do bem ambiental.</p>
+				<p class="p_pergunta"> II - as multas para quem polui acima de certo patamar. </p>
+				<p class="p_pergunta"> III - os impostos verdes para destinação de ações em programas de proteção ambiental. </p>
+				<p class="p_pergunta">IV - a compensação ambiental definida no licenciamento ambiental. </p>
+				<p class="p_pergunta">Estão certos apenas os itens </p>
+			
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="1"/> A - I e III.</p> <!--Essa--->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - II e IV </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - I, II e IV</p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> D - I, III e IV</p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - IV somente </p>
+			</form>	
+		</div>
+
+
+		<hr>
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 4---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 4</p>
+
+				<p class="p_pergunta">Um dos eventos climáticos naturais que vêm sendo intensificados pelas práticas antrópicas, causando, assim, a problemática relacionada ao aquecimento global, é:</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - A formação das ilhas de calor urbanas. </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - A inversão térmica e concentração 
+				de poluentes.</p>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> C - A manifestação do efeito estufa.</p> <!--Essa--> 
+				<p class="resp"> <input type="radio" name="resp" value="0"/> D - Termo usado para definir desmatamento da mata atlantica </p>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Nenhuma das anteriores </p>
+			</form>	
+		</div>	
+
+
+		<hr>
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 5---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 5</p>
+
+				<p class="p_pergunta">No Brasil, as regiões brasileiras que mais sofrem com a desertificação são:</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Centro-Oeste e Norte</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Sudeste e Sul</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Nordeste e Sul</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> D - Nordeste e Sudeste </button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Norte e Sudeste </button>
+			</form>	
+		</div>
+
+		<hr> 
+
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 6---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 6</p>
+
+				<p class="p_pergunta">O derramamento de petróleo no mar é um problema ambiental grave que merece atenção. Um dos piores vazamentos de petróleo que já ocorreram no planeta foi no Golfo do México, em 2010, onde cerca de cinco milhões de barris de petróleo foram lançados nas águas. Baseando-se nos seus conhecimentos sobre o tema, marque a única alternativa que não indica uma consequência da poluição no mar por petróleo.</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Morte de várias espécies de peixes.</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Diminuição da pesca na região.l</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Contaminação de ecossistemas de transição entre o ambiente marinho e terrestre, como mangues.</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> D - Aumento da taxa de fotossíntese das algas. </button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Morte de aves marinhas.</button>
+			</form>	
+		</div>
+
+		<hr>
+
+
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 7---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 7</p>
+
+				<p class="p_pergunta">Quando falamos em poluição, referimo-nos às atividades que afetam diretamente o meio ambiente. Ela pode ser desencadeada por vários agentes, tais como esgoto, pesticidas, resíduos sólidos e petróleo. O tipo mais perigoso de poluição é, sem dúvidas, a radioativa, também chamada de nuclear. No Brasil, em 1987, um grave acidente com radioatividade afetou Goiânia, levando quatro pessoas à morte, segundo registros oficiais, e contaminando várias outras. O acidente em Goiânia foi causado pelo:</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Urânio.</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Plutônio.</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Argônio.</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> D - Césio. </button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Iodo.</button>
+			</form>	
+		</div>
+
+		<hr>
+
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 8---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 8</p>
+
+				<p class="p_pergunta">As florestas tropicais úmidas contribuem muito para a manutenção da vida no planeta por meio do chamado sequestro de carbono atmosférico. Resultados de observações sucessivas, nas últimas décadas, indicam que a floresta amazônica é capaz de absorver até 300 milhões de toneladas de carbono por ano. Conclui-se, portanto, que as florestas exercem importante papel no controle</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Das chuvas ácidas, que decorrem da liberação, na atmosfera, do dióxido de carbono resultante dos desmatamentos por queimadas.</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Das inversões térmicas, causadas pelo acúmulo de dióxido de carbono resultante da não dispersão dos poluentes para as regiões mais altas da atmosfera.</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Da destruição da camada de ozônio, causada pela liberação, na atmosfera, do dióxido de carbono contido nos gases do grupo dos clorofluorcarbonos.</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> D - Do efeito estufa provocado pelo acúmulo de carbono na atmosfera, resultante da queima de combustíveis fósseis, como carvão mineral e petróleo.</button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Da eutrofização das águas, decorrente da dissolução, nos rios, do excesso de dióxido de carbono presente na atmosfera.</button>
+			</form>	
+		</div>
+
+		<hr>
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 9---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 9</p>
+
+				<p class="p_pergunta">Entre os resíduos propostos abaixo, qual deles pode ser utilizado para a produção de um gás que pode substituir o gás de cozinha (gás liquefeito de petróleo), além de ser uma fonte de nutrientes para a agricultura?</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Resíduo tóxico</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> B - Resíduo orgânico</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Resíduo mineral</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> D - Resíduo atômico</button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - Resíduo de metáis pesados.</button>
+			</form>	
+		</div>
+
+		<hr>
+
+		<!---------------------------------------------------------------------------------------------------------------------------------> 
+	<!-------------------------------------------------------PERGUNTAS 10---------------------------------------------------------> 
+	<!---------------------------------------------------------------------------------------------------------------------------------> 
+
+		<div class="perguntas">
+			<form action="conecta.php" method="post">
+				<p class="p_titulo">PERGUNTA 10</p>
+
+				<p class="p_pergunta">A atividade industrial é um ramo da economia que envolve a produção de resíduos, os quais, na maioria dos casos, são nocivos ao meio ambiente e também ao ser humano. Um exemplo são as indústrias que devem queimar combustíveis, como gás ou óleo. Independentemente do estado físico do resíduo produzido, a atividade industrial tem contribuído para poluir de forma intensa e preocupante quais ambiantes??</p>
+
+				<br><br>
+
+				<p class="resp"> <input type="radio" name="resp" value="0"/> A - Apenas a água</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> B - Apenas o solo</button>
+				<p class="resp"> <input type="radio" name="resp" value="0"/> C - Apenas o ar atmosférico</button>
+				<p class="resp"> <input type="radio" name="resp" value="1"/> D - A água, o solo e o ar atmosférico</button> <!-- Essa -->
+				<p class="resp"> <input type="radio" name="resp" value="0"/> E - O solo e o ar atmosférico apenas</button>
+			</form>	
+		</div>
+
+
+
+		
+		<div class="form_nick">                	
+			<form action="conecta.php" method="post">	
+        	<a href="conecta.php"> <input type=submit id="enviar" value="Enviar Repostas" class="btn_form" /> </a>
+        	<input type="textbox" name="aux" id="aux" class="invisivel" class="btn_form" />
+        	<input type="textbox" name="nick" id="nick" class="invisivel" class="btn_form" />
+			<input type="textbox" name="escola" id="escola" class="invisivel" class="btn_form" />
+			</form>
+		</div> 
+
+	</main>
+
+</body>
+
+
+<!----------------------------------------------------------- SCRIPTS ---------------------------------------------------->
+
+
+	<script type="text/javascript">
+		
+		var aux = 0; 
+		var nickname = ""; 
+		var inst = "";
+
+
+		document.getElementById("enviar").onclick = function() 
+		{
+
+    	var respostas = document.getElementsByName("resp");
+
+    	nickname = document.getElementById("nickname").value;
+
+		inst = document.getElementById("instituicao").value;
+
+    		for (var i = 0; i < respostas.length; i++) {
+        		if (respostas[i].checked) {
+            	 	 if(respostas[i].value == 1) { aux++;  }
+        		}
+    		}
+
+    		document.getElementById("aux").value = aux; 
+    		document.getElementById("nick").value = nickname; 
+			document.getElementById("escola").value = inst; 
+
+    		if(nickname == "") { alert("Você não preencheu nickname");}
+
+    		alert("voce acertou " + aux +"/10");
+    		aux = 0;  
+		};
+	</script>
+
+</html>
+
+
+
+<!--
+		<div class="perguntas">
+	  		<form action="form-action.php" method="post">
+            	<p>
+                	<input type="radio" name="resp" value="1"/> A - Terra Redonda
+                	<input type="radio" name="resp" value="0"/> B - Terra Oca
+                	<input type="radio" name="resp" value="0"/> C - Terra Plana
+                	<input type="radio" name="resp" value="0"/> C - Terra Quadrada
+                	<input type="radio" name="resp" value="0"/> C - Terra Triangular
+            	</p>
+            	<p>
+               
+
+            	</p>
+        	</form>
+ 		</div>
+
+ --> 
+
+
